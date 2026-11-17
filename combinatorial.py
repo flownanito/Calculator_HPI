@@ -19,6 +19,3 @@ def combinatorial(n,  k):
     result = n_factorial / (k_factorial * nk_factorial)
 
     return result
-
-if __name__ == "__main__":
-    print(combinatorial(5, 2))

@@ -23,5 +23,3 @@ def solve_equation() -> typing.Optional[typing.Union[typing.Tuple[float, float],
     
     # Return both roots for the quadratic equation
     return ((-b + s) / d, (-b - s) / d)
-
-print(solve_equation())

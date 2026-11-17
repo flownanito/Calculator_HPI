@@ -16,7 +16,3 @@ def calculate_factorial() -> None:
         result *= factor
 
     print(f"The factorial of {number} is {result}.")
-
-
-if __name__ == "__main__":
-    calculate_factorial()
