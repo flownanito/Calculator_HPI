@@ -15,4 +15,4 @@ def calculate_factorial() -> None:
     for factor in range(2, number + 1):
         result *= factor
 
-    print(f"The factorial of {number} is {result}.")
+    return(result)
