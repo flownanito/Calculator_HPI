@@ -7,7 +7,7 @@ from solve_cuadratic_ecuations import solve_equation
 def show_menu():
     """Displays the main menu of the advanced calculator."""
     print("\n========================================")
-    print("         ADVANCED CALCULATOR            ")
+    print("         DEEPMATH            ")
     print("========================================")
     print("1. Calculate Factorial")
     print("2. Combinatorics (n choose k)")
@@ -57,7 +57,7 @@ def main():
         # Ask if the user wants to exit after a calculation
         exit_choice = input("\nDo you want to exit? (y/n): ").strip().lower()
         if exit_choice == 'y' or exit_choice == 'yes':
-            print("\nThank you for using our calculator!")
+            print("\nThank you for using DeepMath!")
             break
 
 if __name__ == "__main__":
